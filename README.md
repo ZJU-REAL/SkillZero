@@ -7,16 +7,18 @@ SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
 
 ## 🔥 Overview
 
-We introduce **SkillZero**, an in-context reinforcement learning framework designed for *skill internalization*.
+We introduce **SKILL0**, an in-context reinforcement learning framework designed for *skill internalization*.
 
 <div align="center">
-  <img src="assets/method_comparison.png" alt="Logo" style="width:80%;">
+  <img src="docs/skillzero/motivation.png" alt="Logo" style="width:80%;">
 </div>
-
+<div align="center">
+  <img src="docs/skillzero/method.png" alt="Logo" style="width:80%;">
+</div>
 Ours <b>UI-S1-7B</b> achieves SOTA performance on both semi-online metric (SOP) and online metric (AndroidWorld) among open-source 7B models.
 
 <div align="center">
-  <img src="assets/metric.png" alt="Logo" style="width:80%;">
+  <img src="assets/skillzero/metric.png" alt="Logo" style="width:80%;">
 </div>
 
 ## Detailed results
@@ -26,7 +28,8 @@ Ours <b>UI-S1-7B</b> achieves SOTA performance on both semi-online metric (SOP) 
 </div>
 ---
 
-## Installation
+## 🛠️ Installation
+
 
 ### Python environment
 
