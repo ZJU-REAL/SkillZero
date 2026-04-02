@@ -1,19 +1,7 @@
-<p align="center" style="margin-bottom: -10px;">
-    <img src="./docs/agentocr/agentocr_logo.png" alt="logo" width="10%">
-</p>
+
 <h1 align="center">
-SkillZero
+SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
 </h1>
-
-<p align="center">
-Research workspace built on <a href="https://github.com/langfengQ/AgentOCR">AgentOCR</a> and <a href="https://github.com/volcengine/verl">veRL</a>: visual compression for agent history, curriculum-style skill learning, and RL training for multi-turn agents.
-</p>
-
-The upstream <code>AgentOCR/</code> directory is kept for reference and comparison. This repository’s training entrypoints, data defaults, and documentation are oriented around **SkillZero** (method scripts use experiment names such as <code>skillzero_*</code>).
-
-**Key ideas (from AgentOCR lineage):**
-- **Visual token representation**: history rendered as compact images to reduce tokens while preserving behavior.
-- **Skill / curriculum**: optional skill schedules and compression-aware rewards where enabled in configs.
 
 ---
 
@@ -111,8 +99,6 @@ bash scripts/train_alfworld_text.sh
 # or, from repo root:
 bash train_alfworld_text.sh
 ```
-
-Checkpoints are written under `./checkpoints/${trainer.project_name}/${trainer.experiment_name}` (see `verl/trainer/config/ppo_trainer.yaml`).
 
 ### SkillZero (method)
 
