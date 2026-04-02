@@ -18,7 +18,7 @@ We introduce **SKILL0**, an in-context reinforcement learning framework designed
 ## Detailed results
 
 <div align="center">
-  <img src="docs/skillzero/metric.png" alt="Logo" style="width:90%;">
+  <img src="docs/skillzero/metric.png" alt="Logo" style="width:80%;">
 </div>
 
 
