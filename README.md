@@ -8,19 +8,21 @@ SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
 ## 🔥 Overview
 
 We introduce **SKILL0**, an in-context reinforcement learning framework designed for *skill internalization*.
-
 <div align="center" style="display:flex; justify-content:center; gap:20px; align-items:flex-start;">
   <img src="docs/skillzero/motivation.png" alt="motivation" style="width:40%;">
   <img src="docs/skillzero/method.png" alt="method" style="width:58%;">
 </div>
 
 
-## Detailed results
 
+
+SKILL0 achieves substantial improvements over the standard RL baseline on ALFWorld and Search-QA.
 <div align="center">
   <img src="docs/skillzero/metric.png" alt="Logo" style="width:80%;">
 </div>
 
+## 🗞️ News
+- **`2026-4-04`**: We release our paper.
 
 ## 🛠️ Installation
 
@@ -42,9 +44,9 @@ Log in to Weights & Biases if you use WandB logging (scripts pass `trainer.logge
 export WANDB_API_KEY=your_key_here
 ```
 
-## Install Supported Environments
+### Install Supported Environments
 
-### 1. ALFWorld
+#### 1. ALFWorld
 Install with pip:
 ```bash
 pip3 install gymnasium==0.29.1
@@ -57,7 +59,7 @@ Download PDDL & Game files and pre-trained MaskRCNN detector (will be stored in 
 alfworld-download -f
 ```
 
-### 2. Search
+#### 2. Search
 ```bash
 cd ./agent_system/environments/env_package/search/third_party
 pip install -e .
@@ -109,7 +111,7 @@ python -m examples.data_preprocess.generate_search_r1_val
 ```
 
 
-## Training
+### Training
 
 All scripts live under `scripts/` and assume the repo root as working directory (they `cd` there automatically). You can run either:
 
@@ -122,7 +124,14 @@ bash scripts/train_search_skillzero_3b
 See `scripts/model_merger.py` for FSDP/Megatron merge examples using paths under `./checkpoints/...`.
 ```
 
+## ⭐️ Citation
 
-## Acknowledgement
+If you find this project useful, welcome to cite us.
+
+```bit
+
+```
+
+## 🤝 Acknowledgement
 
 This project builds on [AgentOCR](https://github.com/langfengQ/AgentOCR), [verl-agent](https://github.com/langfengQ/verl-agent), [veRL](https://github.com/volcengine/verl), [ALFWorld](https://github.com/alfworld/alfworld), [SkillRL](https://github.com/aiming-lab/SkillRL), and [Search-R1](https://github.com/PeterGriffinJin/Search-R1). We thank the authors of those projects.
