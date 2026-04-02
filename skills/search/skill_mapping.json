@@ -1,0 +1,15 @@
+{
+  "skill_files": {
+    "general_skills": "general_skills.md",
+    "direct_retrieval": "direct_retrieval.md",
+    "multi_hop_reasoning": "multi_hop_reasoning.md",
+    "entity_attribute_lookup": "entity_attribute_lookup.md",
+    "compare": "compare.md"
+  },
+  "task_to_skill": {
+    "direct_retrieval": "direct_retrieval",
+    "multi_hop_reasoning": "multi_hop_reasoning",
+    "entity_attribute_lookup": "entity_attribute_lookup",
+    "compare": "compare"
+  }
+}
