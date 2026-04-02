@@ -1,9 +1,11 @@
 <h1 align="center">
 SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
 </h1>
-<font size=4><div align='center'>
+<div align='center' style="font-size:18px;">
+
 [[📖 Paper](https://arxiv.org/abs/2509.11543)] [[🤗 Daily Paper](https://huggingface.co/papers/2509.11543)]
-</div></font>
+
+</div>
 
 ## 🔥 Overview
 
