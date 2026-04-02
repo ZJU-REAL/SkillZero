@@ -1,12 +1,13 @@
-# 
 <h1 align="center">
 SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
 </h1>
-<font size=4><div align='center' > [[📖 Paper](https://arxiv.org/abs/2509.11543)] [[🤗 Daily Paper](https://huggingface.co/papers/2509.11543)]</div></font>
+<font size=4><div align='center'>
+[[📖 Paper](https://arxiv.org/abs/2509.11543)] [[🤗 Daily Paper](https://huggingface.co/papers/2509.11543)]
+</div></font>
 
 ## 🔥 Overview
 
-We present **Semi-online RL**, a novel paradigm that simulates online reinforcement learning using offline trajectories, thereby enabling the efficient training of MLLM-based GUI agents with enhanced multi-turn interaction capabilities.
+We introduce **SkillZero**, an in-context reinforcement learning framework designed for *skill internalization*.
 
 <div align="center">
   <img src="assets/method_comparison.png" alt="Logo" style="width:80%;">
