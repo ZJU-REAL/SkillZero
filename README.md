@@ -1,8 +1,28 @@
-
+# 
 <h1 align="center">
 SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
 </h1>
+<font size=4><div align='center' > [[📖 Paper](https://arxiv.org/abs/2509.11543)] [[🤗 Daily Paper](https://huggingface.co/papers/2509.11543)]</div></font>
 
+## 🔥 Overview
+
+We present **Semi-online RL**, a novel paradigm that simulates online reinforcement learning using offline trajectories, thereby enabling the efficient training of MLLM-based GUI agents with enhanced multi-turn interaction capabilities.
+
+<div align="center">
+  <img src="assets/method_comparison.png" alt="Logo" style="width:80%;">
+</div>
+
+Ours <b>UI-S1-7B</b> achieves SOTA performance on both semi-online metric (SOP) and online metric (AndroidWorld) among open-source 7B models.
+
+<div align="center">
+  <img src="assets/metric.png" alt="Logo" style="width:80%;">
+</div>
+
+## Detailed results
+
+<div align="center">
+  <img src="assets/result.png" alt="Logo" style="width:80%;">
+</div>
 ---
 
 ## Installation
@@ -130,4 +150,4 @@ See `scripts/model_merger.py` for FSDP/Megatron merge examples using paths under
 
 ## Acknowledgement
 
-This project builds on [AgentOCR](https://github.com/langfengQ/AgentOCR), [verl-agent](https://github.com/langfengQ/verl-agent), and [veRL](https://github.com/volcengine/verl). Environments follow [ALFWorld](https://github.com/alfworld/alfworld) and [Search-R1](https://github.com/PeterGriffinJin/Search-R1). We thank the authors of those projects.
+This project builds on [AgentOCR](https://github.com/langfengQ/AgentOCR), [verl-agent](https://github.com/langfengQ/verl-agent), and [veRL](https://github.com/volcengine/verl), [ALFWorld](https://github.com/alfworld/alfworld), [SkillRL](https://github.com/aiming-lab/SkillRL), and [Search-R1](https://github.com/PeterGriffinJin/Search-R1). We thank the authors of those projects.
