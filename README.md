@@ -9,11 +9,9 @@ SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
 
 We introduce **SKILL0**, an in-context reinforcement learning framework designed for *skill internalization*.
 
-<div align="center">
-  <img src="docs/skillzero/motivation.png" alt="Logo" style="width:80%;">
-</div>
-<div align="center">
-  <img src="docs/skillzero/method.png" alt="Logo" style="width:80%;">
+<div align="center" style="display:flex; justify-content:center; gap:20px; align-items:flex-start;">
+  <img src="docs/skillzero/motivation.png" alt="motivation" style="width:40%;">
+  <img src="docs/skillzero/method.png" alt="method" style="width:58%;">
 </div>
 
 
