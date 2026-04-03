@@ -3,7 +3,7 @@ SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
 </h1>
 <div align='center' style="font-size:18px;">
 
-[[📖 Paper](https://arxiv.org/abs/2509.11543)] [[🤗 Daily Paper](https://huggingface.co/papers/2509.11543)]
+[[📖 Paper](https://arxiv.org/abs/2604.02268)] [[🤗 Daily Paper](https://huggingface.co/papers/2604.02268)]
 
 </div>
 
@@ -24,7 +24,7 @@ SKILL0 achieves substantial improvements over the standard RL baseline on ALFWor
 </div>
 
 ## 🗞️ News
-- **`2026-4-04`**: We release our paper.
+- **`2026-4-04`**: We release our paper and code.
 
 ## 🛠️ Installation
 
@@ -131,7 +131,15 @@ See `scripts/model_merger.py` for FSDP/Megatron merge examples using paths under
 If you find this project useful, welcome to cite us.
 
 ```bit
-
+@misc{lu2026skill0,
+      title={SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization}, 
+      author={Zhengxi Lu and Zhiyuan Yao and Jinyang Wu and Chengcheng Han and Qi Gu and Xunliang Cai and Weiming Lu and Jun Xiao and Yueting Zhuang and Yongliang Shen},
+      year={2026},
+      eprint={2604.02268},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2604.02268}, 
+}
 ```
 
 ## 🤝 Acknowledgement
