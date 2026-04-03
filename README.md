@@ -24,7 +24,7 @@ SKILL0 achieves substantial improvements over the standard RL baseline on ALFWor
 </div>
 
 ## 🗞️ News
-- **`2026-4-04`**: We release our paper and code.
+- **`2026-4-03`**: We release our paper and code.
 
 ## 🛠️ Installation
 
