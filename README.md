@@ -2,10 +2,16 @@
 SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
 </h1>
 <div align='center' style="font-size:18px;">
-
-[[📖 Paper](https://arxiv.org/abs/2604.02268)] [[🤗 Daily Paper](https://huggingface.co/papers/2604.02268)]
-
+<p>
+    <a href="https://arxiv.org/abs/2604.02268">
+      <img src="https://img.shields.io/badge/Paper-arxiv%3A2604.02268-blue" alt="Paper"/>
+    </a>
+    <a href="https://huggingface.co/papers/2604.02268">
+      <img src="https://img.shields.io/badge/Daily%20Paper-huggingface-yellow" alt="HF Paper"/>
+    </a>
+  </p>
 </div>
+
 
 ## 🔥 Overview
 
