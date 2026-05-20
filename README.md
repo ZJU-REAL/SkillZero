@@ -31,7 +31,7 @@ SKILL0 achieves substantial improvements over the standard RL baseline on ALFWor
 
 ## 🗞️ News
 - **`2026-5-15`**: 🔥🔥 Our new work was released: [SDAR](https://github.com/ZJU-REAL/SDAR), which introduces Self-Distilled Agentic Reinforcement Learning.
-- **`2026-5-07`**: 🔥 Our new work was released: [SKILL1](https://arxiv.org/abs/2605.06130), which evloves skill-augmented agents in **one** unified policy.
+- **`2026-5-07`**: 🔥 Our new work was released: [SKILL1](https://github.com/AlphaLab-USTC/Skill1), which evloves skill-augmented agents in **one** unified policy.
 - **`2026-4-03`**: We release our paper and code.
 
 ## 🛠️ Installation
