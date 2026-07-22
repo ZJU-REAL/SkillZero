@@ -30,6 +30,8 @@ SKILL0 achieves substantial improvements over the standard RL baseline on ALFWor
 </div>
 
 ## 🗞️ News
+- **`2026-7-17`**: 🔥🔥 We released [SEED](https://arxiv.org/abs/2607.14777) and its [code](https://github.com/jinyangwu/SEED), introducing **self-evolving** opd beyond skill internalization.
+- **`2026-6-25`**: 🔥🔥 We released [OPID](https://arxiv.org/abs/2606.26790) and its [code](https://github.com/jinyangwu/OPID), introducing **skill evolving** beyond skill internalization.
 - **`2026-5-15`**: 🔥🔥 Our new work was released: [SDAR](https://github.com/ZJU-REAL/SDAR), which introduces Self-Distilled Agentic Reinforcement Learning.
 - **`2026-5-07`**: 🔥 Our new work was released: [SKILL1](https://github.com/AlphaLab-USTC/Skill1), which evloves skill-augmented agents in **one** unified policy.
 - **`2026-4-03`**: We release our paper and code.
@@ -165,6 +167,24 @@ If you find this project useful, welcome to cite us.
       archivePrefix={arXiv},
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2605.15155}, 
+}
+@misc{wu2026seed,
+      title={SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning}, 
+      author={Jinyang Wu and Shuo Yang and Zhengxi Lu and Fan Zhang and Yuhao Shen and Lang Feng and Haoran Luo and Zheng Lian and Shuai Zhang and Zhengqi Wen and Jianhua Tao},
+      year={2026},
+      eprint={2607.14777},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2607.14777}, 
+}
+@misc{yang2026opid,
+      title={OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning}, 
+      author={Shuo Yang and Jinyang Wu and Zhengxi Lu and Yuhao Shen and Fan Zhang and Lang Feng and Shuai Zhang and Haoran Luo and Zheng Lian and Zhengqi Wen and Jianhua Tao},
+      year={2026},
+      eprint={2606.26790},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.26790}, 
 }
 ```
 
