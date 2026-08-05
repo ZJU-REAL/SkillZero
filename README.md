@@ -30,9 +30,10 @@ SKILL0 achieves substantial improvements over the standard RL baseline on ALFWor
 </div>
 
 ## 🗞️ News
+- **`2026-7-29`**: 🔥🔥 We released [SkillRise](https://arxiv.org/abs/2607.26784) and its [code](https://github.com/Within-yao/SkillRise), introducing **cross-task skill evolution** via agentic RL.
 - **`2026-7-17`**: 🔥🔥 We released [SEED](https://arxiv.org/abs/2607.14777) and its [code](https://github.com/jinyangwu/SEED), introducing **self-evolving** opd beyond skill internalization.
-- **`2026-6-25`**: 🔥🔥 We released [OPID](https://arxiv.org/abs/2606.26790) and its [code](https://github.com/jinyangwu/OPID), introducing **skill evolving** beyond skill internalization.
-- **`2026-5-15`**: 🔥🔥 Our new work was released: [SDAR](https://github.com/ZJU-REAL/SDAR), which introduces Self-Distilled Agentic Reinforcement Learning.
+- **`2026-6-25`**: 🔥 We released [OPID](https://arxiv.org/abs/2606.26790) and its [code](https://github.com/jinyangwu/OPID), introducing **skill evolving** beyond skill internalization.
+- **`2026-5-15`**: 🔥 Our new work was released: [SDAR](https://github.com/ZJU-REAL/SDAR), which introduces Self-Distilled Agentic Reinforcement Learning.
 - **`2026-5-07`**: 🔥 Our new work was released: [SKILL1](https://github.com/AlphaLab-USTC/Skill1), which evloves skill-augmented agents in **one** unified policy.
 - **`2026-4-03`**: We release our paper and code.
 
@@ -141,50 +142,41 @@ See `scripts/model_merger.py` for FSDP/Megatron merge examples using paths under
 If you find this project useful, welcome to cite us.
 
 ```bit
-@misc{lu2026skill0,
-      title={SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization}, 
-      author={Zhengxi Lu and Zhiyuan Yao and Jinyang Wu and Chengcheng Han and Qi Gu and Xunliang Cai and Weiming Lu and Jun Xiao and Yueting Zhuang and Yongliang Shen},
-      year={2026},
-      eprint={2604.02268},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2604.02268}, 
+@article{lu2026skill0,
+  title={Skill0: In-context agentic reinforcement learning for skill internalization},
+  author={Lu, Zhengxi and Yao, Zhiyuan and Wu, Jinyang and Han, Chengcheng and Gu, Qi and Cai, Xunliang and Lu, Weiming and Xiao, Jun and Zhuang, Yueting and Shen, Yongliang},
+  journal={arXiv preprint arXiv:2604.02268},
+  year={2026}
 }
-@misc{shi2026skill1,
-      title={Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning}, 
-      author={Yaorui Shi and Yuxin Chen and Zhengxi Lu and Yuchun Miao and Shugui Liu and Qi GU and Xunliang Cai and Xiang Wang and An Zhang},
-      year={2026},
-      eprint={2605.06130},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2605.06130}, 
+@article{lu2026sdar,
+  title={Self-distilled agentic reinforcement learning},
+  author={Lu, Zhengxi and Yao, Zhiyuan and Han, Zhuowen and Wang, Zi-Han and Wu, Jinyang and Gu, Qi and Cai, Xunliang and Lu, Weiming and Xiao, Jun and Zhuang, Yueting and others},
+  journal={arXiv preprint arXiv:2605.15155},
+  year={2026}
 }
-@misc{lu2026sdar,
-      title={Self-Distilled Agentic Reinforcement Learning}, 
-      author={Zhengxi Lu and Zhiyuan Yao and Zhuowen Han and Zi-Han Wang and Jinyang Wu and Qi Gu and Xunliang Cai and Weiming Lu and Jun Xiao and Yueting Zhuang and Yongliang Shen},
-      year={2026},
-      eprint={2605.15155},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2605.15155}, 
+@article{shi2026skill1,
+  title={Skill1: Unified evolution of skill-augmented agents via reinforcement learning},
+  author={Shi, Yaorui and Chen, Yuxin and Lu, Zhengxi and Miao, Yuchun and Liu, Shugui and Gu, Qi and Cai, Xunliang and Wang, Xiang and Zhang, An},
+  journal={arXiv preprint arXiv:2605.06130},
+  year={2026}
 }
-@misc{wu2026seed,
-      title={SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning}, 
-      author={Jinyang Wu and Shuo Yang and Zhengxi Lu and Fan Zhang and Yuhao Shen and Lang Feng and Haoran Luo and Zheng Lian and Shuai Zhang and Zhengqi Wen and Jianhua Tao},
-      year={2026},
-      eprint={2607.14777},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2607.14777}, 
+@article{wu2026seed,
+  title={SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning},
+  author={Wu, Jinyang and Yang, Shuo and Lu, Zhengxi and Zhang, Fan and Shen, Yuhao and Feng, Lang and Luo, Haoran and Lian, Zheng and Zhang, Shuai and Wen, Zhengqi and others},
+  journal={arXiv preprint arXiv:2607.14777},
+  year={2026}
 }
-@misc{yang2026opid,
-      title={OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning}, 
-      author={Shuo Yang and Jinyang Wu and Zhengxi Lu and Yuhao Shen and Fan Zhang and Lang Feng and Shuai Zhang and Haoran Luo and Zheng Lian and Zhengqi Wen and Jianhua Tao},
-      year={2026},
-      eprint={2606.26790},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2606.26790}, 
+@article{yang2026opid,
+  title={Opid: On-policy skill distillation for agentic reinforcement learning},
+  author={Yang, Shuo and Wu, Jinyang and Lu, Zhengxi and Shen, Yuhao and Zhang, Fan and Feng, Lang and Zhang, Shuai and Luo, Haoran and Lian, Zheng and Wen, Zhengqi and others},
+  journal={arXiv preprint arXiv:2606.26790},
+  year={2026}
+}
+@article{yao2026skillrise,
+  title={SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution},
+  author={Yao, Zhiyuan and Chen, Yuxin and Lu, Zhengxi and Xu, Zishan and Sun, Yueqing and Guo, Yifu and Lu, Yuquan and Cai, Zhengzhou and Zhang, Kangning and Han, Zhuowen and others},
+  journal={arXiv preprint arXiv:2607.26784},
+  year={2026}
 }
 ```
 
