@@ -30,6 +30,7 @@ SKILL0 achieves substantial improvements over the standard RL baseline on ALFWor
 </div>
 
 ## 🗞️ News
+- **`2026-8-6`**: 🔥🔥 We released [AgentOPSD](https://github.com/ZethWang/AgentOPSD), introducing **recursive credit update** for SDAR.
 - **`2026-7-29`**: 🔥🔥 We released [SkillRise](https://github.com/Within-yao/SkillRise), introducing **cross-task skill evolution** via agentic RL.
 - **`2026-7-17`**: 🔥🔥 We released [SEED](https://github.com/jinyangwu/SEED), introducing **self-evolving** opd beyond skill internalization.
 - **`2026-6-25`**: 🔥 We released [OPID](https://github.com/jinyangwu/OPID), introducing **skill evolving** beyond skill internalization.
@@ -177,6 +178,15 @@ If you find this project useful, welcome to cite us.
   author={Yao, Zhiyuan and Chen, Yuxin and Lu, Zhengxi and Xu, Zishan and Sun, Yueqing and Guo, Yifu and Lu, Yuquan and Cai, Zhengzhou and Zhang, Kangning and Han, Zhuowen and others},
   journal={arXiv preprint arXiv:2607.26784},
   year={2026}
+}
+@misc{wang2026agentopsd,
+      title={AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning}, 
+      author={Zi-Han Wang and Zhengxi Lu and Zhiyuan Yao and Jinyang Wu and Jie Wu and Zhengzhou Cai and Yueqing Sun and Ziang Ye and Linji Hao and Qi Gu and Xunliang Cai and Yongliang Shen and Yujiu Yang},
+      year={2026},
+      eprint={2608.05987},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2608.05987}, 
 }
 ```
 
