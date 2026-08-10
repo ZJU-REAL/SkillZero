@@ -179,14 +179,11 @@ If you find this project useful, welcome to cite us.
   journal={arXiv preprint arXiv:2607.26784},
   year={2026}
 }
-@misc{wang2026agentopsd,
-      title={AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning}, 
-      author={Zi-Han Wang and Zhengxi Lu and Zhiyuan Yao and Jinyang Wu and Jie Wu and Zhengzhou Cai and Yueqing Sun and Ziang Ye and Linji Hao and Qi Gu and Xunliang Cai and Yongliang Shen and Yujiu Yang},
-      year={2026},
-      eprint={2608.05987},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2608.05987}, 
+@article{wang2026agentopsd,
+  title={AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning},
+  author={Wang, Zi-Han and Lu, Zhengxi and Yao, Zhiyuan and Wu, Jinyang and Wu, Jie and Cai, Zhengzhou and Sun, Yueqing and Ye, Ziang and Hao, Linji and Gu, Qi and others},
+  journal={arXiv preprint arXiv:2608.05987},
+  year={2026}
 }
 ```
 
